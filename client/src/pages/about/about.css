@@ -1,0 +1,49 @@
+.about {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  background: 
+    url("about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutWrapper {
+  width: 80%;
+}
+.aboutTitle {
+  font-size: 38px;
+  font-weight: 550;
+  margin-bottom: 20px;
+  color: rgb(224, 217, 217);
+}
+h4 {
+  font-size: 22px;
+  line-height: 30px;
+  color: rgb(252, 247, 217);
+}
+
+p {
+  line-height: 28px;
+  font-size: 17px;
+  color: rgb(235, 213, 213);
+}
+p span {
+  font-weight: bold;
+  color: rgb(238, 222, 222);
+}
+h2 {
+  margin: 20px 0;
+  color: rgb(241, 223, 223);
+}
+button {
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  color: rgb(29, 25, 29);
+  background-color: rgb(31, 110, 116) 54, 59;
+  cursor: pointer;
+}
+ 

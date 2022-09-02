@@ -1,0 +1,54 @@
+.header {
+  
+  background:url("bg.jpg");
+  
+  
+  
+}
+.headerWrapper {
+  padding-top: 30px;
+}
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.headerTitleSm {
+  font-family: "Lora", serif;
+  color: rgb(207, 207, 207);
+  font-size: 18px;
+  position: absolute;
+  top: 160px;
+  padding-left: 20px;
+  letter-spacing: 0.05em;
+}
+
+.headerTitleLg {
+  font-family: "Lora", serif;
+  background-clip: border-box;
+  color: rgb(211, 238, 243);
+  font-size: 90px;
+  font-weight: 600;
+  font-style: normal;
+  position: absolute;
+  top: 40px;
+  font-style: italic;
+}
+.headerImg {
+  margin-top: 35px;
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+ 
+}
+
+@media screen and (max-width: 480px) {
+  .headerTitleLg{
+    font-size: 50px;
+    top: 6px
+  }
+  /* .headerImg{
+    background-position: bottom center;
+  } */
+}
